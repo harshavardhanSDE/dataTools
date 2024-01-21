@@ -7,8 +7,7 @@ Data categories:
 `Preprocessing challenges`<br>
 [Missing data]()
 - Deletion methods
-    - [Listwise deletion]()
-    - [Pairwise deletion]()
+    - [Listwise & Pairwise deletion]()
 - imputation methods
     - [Mean/ Median/ Mode imputation]()
     - [Linear regression imputaiton]()

@@ -1,0 +1,13 @@
+dbt_setup:
+  target: "dev"
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: "dbt_setup"
+      dataset: "dbt_dataset"
+      threads: 1
+      keyfile: "secrets/key-file.json"
+      timeout_seconds: 300
+    
+
